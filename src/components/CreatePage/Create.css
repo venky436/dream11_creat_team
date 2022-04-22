@@ -1,0 +1,249 @@
+.cre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     /* border-left:  1px  solid rgba(104, 99, 99,0.4); */
+    border-bottom:  1px  solid rgba(104, 99, 99,0.4);
+    padding: 1rem 0;
+}
+.cre:first-child{
+     border-left:  1px  solid rgba(104, 99, 99,0.4);
+
+}
+
+
+.c-c span{
+    color: white;
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+    margin: 0 0.3rem;
+    text-shadow: 1px 1px 1px 1px white;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: black;
+    padding: 0 2rem;
+    border-radius: 0.5rem;
+}
+
+
+ .cre{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.555);
+    cursor: pointer;
+}
+.cre button{
+    margin: 0 0.5rem;
+    width: 10rem;
+    height: auto;
+    padding: 0.4rem;
+}
+.cre h3{
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.player-c{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.player-c h3{
+    text-align: center;
+}
+#player-img{
+    display: block;
+    width: 12rem;
+    height: 12rem;
+    margin: 1rem 0;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100%;
+}
+
+
+#team{
+    font-size: 1.5rem;
+    margin: 0 0.4rem;
+    color: white;
+    padding: 0.4rem 0.8rem;
+}
+#points{
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin: 1rem 0;
+    padding: 1rem 2rem;
+    position: fixed;
+    right: 3rem;
+    top: 1rem;
+}
+
+.prv{
+    width:60%;
+   height: 87vh;
+    background-color: green;
+    margin: 0 auto !important;
+    position: fixed;
+    top:2rem;
+    left:0;
+    right: 0;
+    visibility: hidden;
+    opacity: 0;
+    user-select: none;
+    transition: all 250ms linear;
+    overflow: scroll;
+}
+.prv.active{
+   visibility:visible;
+    opacity: 1;
+    user-select:auto;
+}
+
+#sel{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#prv-img{
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+#prv-name{
+    display: block;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    padding: 0.4rem 0;
+}
+
+.w-c{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.rrr{
+    position: relative;
+    padding: 2rem 0;
+}
+
+#exit-btn{
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 2rem;
+    top: 0rem;
+    font-size: 4rem;
+    border: 0;
+    background-color:transparent;
+    color: white;
+}
+
+
+/* CAPTAINS STYLE */
+.main-c{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+.main-c h3{
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+.main-c span{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+#c-img{
+    display: block;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.c-v{
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    background-color: white;
+    border: 0;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.active{
+    background-color: green;
+    color: white;
+}
+#input{
+    display: block;
+    width: 20rem;
+    height: 4rem;
+    margin: 2rem 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#save-btn{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6rem;
+    margin:2rem;
+    
+   
+}
+
+
+
+/* TEAM>JS */
+.team-row-nav{
+    height: 5rem;
+    width: 100%;
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.team-row{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.team-row h2{
+    display: block;
+    font-size: 1.9rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.team-row button{
+    display: block;
+    padding:0.5rem 1.2rem;
+    font-size: 1.4rem;
+    
+}
+#btnn{
+    padding: 0.5rem 1.4rem;
+    font-size: 1.3rem;
+}
+
+
